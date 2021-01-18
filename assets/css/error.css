@@ -1,0 +1,54 @@
+div.imgBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*filter: grayscale(0);*/
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+    div.imgBackground img {
+        height: 100vh;
+
+    }
+}
+
+section.jumbotron {
+    min-height: calc(100vh - 100px);
+}
+
+section.jumbotron div {
+    margin: auto auto;
+    padding: 2rem 2rem;
+    color: #242424;
+    background: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+section.jumbotron h2 {
+    font-family: "Caveat", cursive, sans-serif;
+    font-size: 2rem;
+}
+
+section.jumbotron p {
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    section.jumbotron h2 {
+        font-size: 3rem;
+    }
+
+    section.jumbotron p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    section.jumbotron h2 {
+        font-size: 5rem;
+    }
+}

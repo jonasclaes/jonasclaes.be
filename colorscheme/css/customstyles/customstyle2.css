@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif, sans-serif;
+    background-color: coral;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    float: right;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: left;
+}
+
+th {
+    background-color: gray;
+}
