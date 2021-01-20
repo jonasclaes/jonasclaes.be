@@ -1,0 +1,16 @@
+/*#fIPv4Calculator {*/
+/*    width: 100%;*/
+/*}*/
+
+#fIPv4Calculator input {
+    width: 100%;
+}
+
+#fIPv4Calculator div.octets label {
+    display: block;
+}
+
+#fIPv4Calculator div.octets div.octet {
+    width: 25%;
+    display: inline-block;
+}
